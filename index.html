@@ -385,6 +385,13 @@
             margin: 0 0 2rem 0;
             overflow: hidden;
         }
+
+        /* Remove animations for the Cyber Attacks section */
+        #attacks {
+            opacity: 1 !important;
+            transform: none !important;
+            transition: none !important;
+        }
     </style>
 </head>
 
@@ -656,6 +663,22 @@
                 hamburgerBtn.classList.remove('open');
                 hamburgerBtn.setAttribute('aria-expanded', 'false');
             }
+        });
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href').substring(1);
+                const targetElement = document.getElementById(targetId);
+
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - document.querySelector('header').offsetHeight, // Adjust for header height
+                        behavior: 'smooth'
+                    });
+                }
+            });
         });
     </script>
 
