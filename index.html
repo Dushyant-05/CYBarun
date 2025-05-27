@@ -232,7 +232,8 @@
             user-select: none;
             max-width: 1080px;
             margin: 0 auto 3rem;
-            opacity: 1; /* Change this from 0.6 to 1 */
+            opacity: 1;
+            /* Change this from 0.6 to 1 */
         }
 
         footer img {
@@ -247,7 +248,8 @@
 
         /* Hamburger styles */
         .hamburger {
-            display: flex; /* Always show */
+            display: flex;
+            /* Always show */
             flex-direction: column;
             justify-content: center;
             align-items: center;
@@ -265,7 +267,8 @@
             width: 26px;
             height: 3px;
             margin: 4px 0;
-            background: #111; /* Black color */
+            background: #111;
+            /* Black color */
             border-radius: 2px;
             transition: 0.3s;
         }
@@ -399,9 +402,9 @@
 
     <h1
         style="text-align: center; font-size: 4rem; font-weight: 300; margin: 4rem 0 2rem; font-family: 'Georgia', serif;">
-        A Safer Digital World 
+        A Safer Digital World
     </h1>
-    
+
     <img src="https://cdn.pixabay.com/photo/2022/03/15/18/00/security-7070879_1280.png" alt="Security Illustration"
         style="
             display: block;
@@ -425,6 +428,7 @@
             <a href="#bugs">Bugs</a>
             <a href="#attacks">Attacks</a>
             <a href="#precautions">Precautions</a>
+            <a href="#Quiz">Quiz</a>
             <a href="#latest-news">News</a>
         </nav>
         <button class="hamburger" id="hamburgerBtn" aria-label="Open navigation" aria-expanded="false">
@@ -439,26 +443,36 @@
         <section id="bugs" tabindex="-1" aria-label="Common Bugs">
             <h2>Common Bugs</h2>
             <p style="font-family: 'Fira Mono', 'Consolas', 'Menlo', 'Monaco', monospace;">
-        Learn about common software bugs that can lead to vulnerabilities in your systems.
-    </p>
+                Learn about common software bugs that can lead to vulnerabilities in your systems.
+            </p>
             <div class="grid grid-blue">
                 <div class="card">
-                    <img src="https://miro.medium.com/v2/resize:fit:1400/1*RE-8acvFJqY8UWQi3cf_ww.png" alt="Buffer Overflow" style="width:100%;height:150px;object-fit:cover;display:block;margin-bottom:1rem;border-radius:8px 8px 0 0;">
+                    <img src="https://miro.medium.com/v2/resize:fit:1400/1*RE-8acvFJqY8UWQi3cf_ww.png"
+                        alt="Buffer Overflow"
+                        style="width:100%;height:150px;object-fit:cover;display:block;margin-bottom:1rem;border-radius:8px 8px 0 0;">
                     <h3>Buffer Overflow</h3>
-                    <p>Occurs when a program writes more data to a buffer than it can hold, leading to crashes or exploits.</p>
-                    <a href="https://en.wikipedia.org/wiki/Buffer_overflow" target="_blank" rel="noopener" style="color:var(--accent);margin-top:auto;">Learn more</a>
+                    <p>Occurs when a program writes more data to a buffer than it can hold, leading to crashes or
+                        exploits.</p>
+                    <a href="https://en.wikipedia.org/wiki/Buffer_overflow" target="_blank" rel="noopener"
+                        style="color:var(--accent);margin-top:auto;">Learn more</a>
                 </div>
                 <div class="card">
-                    <img src="https://www.cloudways.com/blog/wp-content/uploads/Main-Image_750x394-144.jpg" alt="SQL Injection" style="width:100%;height:150px;object-fit:cover;display:block;margin-bottom:1rem;border-radius:8px 8px 0 0;">
+                    <img src="https://www.cloudways.com/blog/wp-content/uploads/Main-Image_750x394-144.jpg"
+                        alt="SQL Injection"
+                        style="width:100%;height:150px;object-fit:cover;display:block;margin-bottom:1rem;border-radius:8px 8px 0 0;">
                     <h3>SQL Injection</h3>
                     <p>Allows attackers to execute arbitrary SQL commands on a database through user input.</p>
-                    <a href="https://en.wikipedia.org/wiki/SQL_injection" target="_blank" rel="noopener" style="color:var(--accent);margin-top:auto;">Learn more</a>
+                    <a href="https://en.wikipedia.org/wiki/SQL_injection" target="_blank" rel="noopener"
+                        style="color:var(--accent);margin-top:auto;">Learn more</a>
                 </div>
                 <div class="card">
-                    <img src="https://evalian.co.uk/wp-content/uploads/2022/03/XSS-attacks-what-is-cross-site-scripting.png" alt="Cross-Site Scripting" style="width:100%;height:150px;object-fit:cover;display:block;margin-bottom:1rem;border-radius:8px 8px 0 0;">
+                    <img src="https://evalian.co.uk/wp-content/uploads/2022/03/XSS-attacks-what-is-cross-site-scripting.png"
+                        alt="Cross-Site Scripting"
+                        style="width:100%;height:150px;object-fit:cover;display:block;margin-bottom:1rem;border-radius:8px 8px 0 0;">
                     <h3>Cross-Site Scripting (XSS)</h3>
                     <p>Enables attackers to inject malicious scripts into web pages viewed by other users.</p>
-                    <a href="https://en.wikipedia.org/wiki/Cross-site_scripting" target="_blank" rel="noopener" style="color:var(--accent);margin-top:auto;">Learn more</a>
+                    <a href="https://en.wikipedia.org/wiki/Cross-site_scripting" target="_blank" rel="noopener"
+                        style="color:var(--accent);margin-top:auto;">Learn more</a>
                 </div>
             </div>
         </section>
@@ -466,62 +480,89 @@
         <section id="attacks" tabindex="-1" aria-label="Cyber Attacks">
             <h2>Cyber Attacks</h2>
             <p style="font-family: 'Fira Mono', 'Consolas', 'Menlo', 'Monaco', monospace;">
-        Understand different types of cyber attacks and how they can compromise systems.
-    </p>
+                Understand different types of cyber attacks and how they can compromise systems.
+            </p>
             <div class="grid grid-blue">
                 <div class="card">
-                    <img src="https://www.stratospherenetworks.com/blog/wp-content/uploads/2021/02/phishing-illustration-scaled.jpg" alt="Phishing" style="width:100%;height:150px;object-fit:cover;display:block;margin-bottom:1rem;border-radius:8px 8px 0 0;">
+                    <img src="https://www.stratospherenetworks.com/blog/wp-content/uploads/2021/02/phishing-illustration-scaled.jpg"
+                        alt="Phishing"
+                        style="width:100%;height:150px;object-fit:cover;display:block;margin-bottom:1rem;border-radius:8px 8px 0 0;">
                     <h3>Phishing</h3>
                     <p>Fraudulent attempts to obtain sensitive information by pretending to be a trustworthy entity.</p>
-                    <a href="https://en.wikipedia.org/wiki/Phishing" target="_blank" rel="noopener" style="color:var(--accent);margin-top:auto;">Learn more</a>
+                    <a href="https://en.wikipedia.org/wiki/Phishing" target="_blank" rel="noopener"
+                        style="color:var(--accent);margin-top:auto;">Learn more</a>
                 </div>
                 <div class="card">
-                    <img src="https://rackset.com/wp-content/uploads/2022/07/types-of-denial-of-service-attacks.jpg" alt="Denial of Service" style="width:100%;height:150px;object-fit:cover;display:block;margin-bottom:1rem;border-radius:8px 8px 0 0;">
+                    <img src="https://rackset.com/wp-content/uploads/2022/07/types-of-denial-of-service-attacks.jpg"
+                        alt="Denial of Service"
+                        style="width:100%;height:150px;object-fit:cover;display:block;margin-bottom:1rem;border-radius:8px 8px 0 0;">
                     <h3>Denial of Service (DoS)</h3>
                     <p>Overwhelms a system with traffic, making it unavailable to legitimate users.</p>
-                    <a href="https://en.wikipedia.org/wiki/Denial-of-service_attack" target="_blank" rel="noopener" style="color:var(--accent);margin-top:auto;">Learn more</a>
+                    <a href="https://en.wikipedia.org/wiki/Denial-of-service_attack" target="_blank" rel="noopener"
+                        style="color:var(--accent);margin-top:auto;">Learn more</a>
                 </div>
                 <div class="card">
-                    <img src="https://miro.medium.com/v2/resize:fit:1358/1*QjNnsn2Djrl-ApgcOaeEFA.jpeg" alt="Man-in-the-Middle" style="width:100%;height:150px;object-fit:cover;display:block;margin-bottom:1rem;border-radius:8px 8px 0 0;">
+                    <img src="https://miro.medium.com/v2/resize:fit:1358/1*QjNnsn2Djrl-ApgcOaeEFA.jpeg"
+                        alt="Man-in-the-Middle"
+                        style="width:100%;height:150px;object-fit:cover;display:block;margin-bottom:1rem;border-radius:8px 8px 0 0;">
                     <h3>Man-in-the-Middle (MITM)</h3>
                     <p>Intercepts communication between two parties to steal or manipulate data.</p>
-                    <a href="https://en.wikipedia.org/wiki/Man-in-the-middle_attack" target="_blank" rel="noopener" style="color:var(--accent);margin-top:auto;">Learn more</a>
+                    <a href="https://en.wikipedia.org/wiki/Man-in-the-middle_attack" target="_blank" rel="noopener"
+                        style="color:var(--accent);margin-top:auto;">Learn more</a>
                 </div>
                 <div class="card">
-                    <img src="https://www.xcitium.com/blog/wp-content/uploads/2022/10/what-is-ransomware-on-a-computer.png" alt="Ransomware" style="width:100%;height:150px;object-fit:cover;display:block;margin-bottom:1rem;border-radius:8px 8px 0 0;">
+                    <img src="https://www.xcitium.com/blog/wp-content/uploads/2022/10/what-is-ransomware-on-a-computer.png"
+                        alt="Ransomware"
+                        style="width:100%;height:150px;object-fit:cover;display:block;margin-bottom:1rem;border-radius:8px 8px 0 0;">
                     <h3>Ransomware</h3>
                     <p>Malicious software that locks data until a ransom is paid.</p>
-                    <a href="https://en.wikipedia.org/wiki/Ransomware" target="_blank" rel="noopener" style="color:var(--accent);margin-top:auto;">Learn more</a>
+                    <a href="https://en.wikipedia.org/wiki/Ransomware" target="_blank" rel="noopener"
+                        style="color:var(--accent);margin-top:auto;">Learn more</a>
                 </div>
                 <div class="card">
-                    <img src="https://blog.vvsevolodovich.dev/content/images/2023/07/zeroday.svg" alt="Zero-Day Exploits" style="width:100%;height:150px;object-fit:cover;display:block;margin-bottom:1rem;border-radius:8px 8px 0 0;">
+                    <img src="https://blog.vvsevolodovich.dev/content/images/2023/07/zeroday.svg"
+                        alt="Zero-Day Exploits"
+                        style="width:100%;height:150px;object-fit:cover;display:block;margin-bottom:1rem;border-radius:8px 8px 0 0;">
                     <h3>Zero-Day Exploits</h3>
                     <p>Attacks on unknown or unpatched vulnerabilities.</p>
-                    <a href="https://en.wikipedia.org/wiki/Zero-day_(computing)" target="_blank" rel="noopener" style="color:var(--accent);margin-top:auto;">Learn more</a>
+                    <a href="https://en.wikipedia.org/wiki/Zero-day_(computing)" target="_blank" rel="noopener"
+                        style="color:var(--accent);margin-top:auto;">Learn more</a>
                 </div>
                 <div class="card">
-                    <img src="https://sosafe-awareness.com/sosafe-files/uploads/2023/06/Brute-Force_Attack_Glossary_1.jpg" alt="Brute Force Attacks" style="width:100%;height:150px;object-fit:cover;display:block;margin-bottom:1rem;border-radius:8px 8px 0 0;">
+                    <img src="https://sosafe-awareness.com/sosafe-files/uploads/2023/06/Brute-Force_Attack_Glossary_1.jpg"
+                        alt="Brute Force Attacks"
+                        style="width:100%;height:150px;object-fit:cover;display:block;margin-bottom:1rem;border-radius:8px 8px 0 0;">
                     <h3>Brute Force Attacks</h3>
                     <p>Attempting many passwords until one works.</p>
-                    <a href="https://en.wikipedia.org/wiki/Brute-force_attack" target="_blank" rel="noopener" style="color:var(--accent);margin-top:auto;">Learn more</a>
+                    <a href="https://en.wikipedia.org/wiki/Brute-force_attack" target="_blank" rel="noopener"
+                        style="color:var(--accent);margin-top:auto;">Learn more</a>
                 </div>
                 <div class="card">
-                    <img src="https://miro.medium.com/v2/resize:fit:531/1*ruUM-3G8py-FRzcx_wL9Pw.png" alt="DNS Spoofing" style="width:100%;height:150px;object-fit:cover;display:block;margin-bottom:1rem;border-radius:8px 8px 0 0;">
+                    <img src="https://miro.medium.com/v2/resize:fit:531/1*ruUM-3G8py-FRzcx_wL9Pw.png" alt="DNS Spoofing"
+                        style="width:100%;height:150px;object-fit:cover;display:block;margin-bottom:1rem;border-radius:8px 8px 0 0;">
                     <h3>DNS Spoofing</h3>
                     <p>Redirecting users to malicious websites.</p>
-                    <a href="https://en.wikipedia.org/wiki/DNS_spoofing" target="_blank" rel="noopener" style="color:var(--accent);margin-top:auto;">Learn more</a>
+                    <a href="https://en.wikipedia.org/wiki/DNS_spoofing" target="_blank" rel="noopener"
+                        style="color:var(--accent);margin-top:auto;">Learn more</a>
                 </div>
                 <div class="card">
-                    <img src="https://images.ctfassets.net/23aumh6u8s0i/4MgtGBTIRiVmm0h87XBZ8u/1c881e503894ff71ca626081d08ec684/01_WhatisandhowdoesSSO_blog_588x528_3x_Sher2" alt="Credential Stuffing" style="width:100%;height:150px;object-fit:cover;display:block;margin-bottom:1rem;border-radius:8px 8px 0 0;">
+                    <img src="https://images.ctfassets.net/23aumh6u8s0i/4MgtGBTIRiVmm0h87XBZ8u/1c881e503894ff71ca626081d08ec684/01_WhatisandhowdoesSSO_blog_588x528_3x_Sher2"
+                        alt="Credential Stuffing"
+                        style="width:100%;height:150px;object-fit:cover;display:block;margin-bottom:1rem;border-radius:8px 8px 0 0;">
                     <h3>Credential Stuffing</h3>
                     <p>Using leaked credentials to gain unauthorized access.</p>
-                    <a href="https://en.wikipedia.org/wiki/Credential_stuffing" target="_blank" rel="noopener" style="color:var(--accent);margin-top:auto;">Learn more</a>
+                    <a href="https://en.wikipedia.org/wiki/Credential_stuffing" target="_blank" rel="noopener"
+                        style="color:var(--accent);margin-top:auto;">Learn more</a>
                 </div>
                 <div class="card">
-                    <img src="https://cdn.prod.website-files.com/6130a9118b1be9aebe2c2837/66cecaf44426dff270ea3953_Social_engineering_%2525281%252529.webp" alt="Social Engineering" style="width:100%;height:150px;object-fit:cover;display:block;margin-bottom:1rem;border-radius:8px 8px 0 0;">
+                    <img src="https://cdn.prod.website-files.com/6130a9118b1be9aebe2c2837/66cecaf44426dff270ea3953_Social_engineering_%2525281%252529.webp"
+                        alt="Social Engineering"
+                        style="width:100%;height:150px;object-fit:cover;display:block;margin-bottom:1rem;border-radius:8px 8px 0 0;">
                     <h3>Social Engineering</h3>
-                    <p>Manipulating people into revealing confidential information or performing actions that compromise security.</p>
-                    <a href="https://en.wikipedia.org/wiki/Social_engineering_(security)" target="_blank" rel="noopener" style="color:var(--accent);margin-top:auto;">Learn more</a>
+                    <p>Manipulating people into revealing confidential information or performing actions that compromise
+                        security.</p>
+                    <a href="https://en.wikipedia.org/wiki/Social_engineering_(security)" target="_blank" rel="noopener"
+                        style="color:var(--accent);margin-top:auto;">Learn more</a>
                 </div>
             </div>
         </section>
@@ -529,86 +570,119 @@
         <section id="precautions" tabindex="-1" aria-label="Security Precautions">
             <h2>Security Precautions</h2>
             <p style="font-family: 'Fira Mono', 'Consolas', 'Menlo', 'Monaco', monospace;">
-        Follow these best practices to protect your systems and data from cyber threats.
-    </p>
+                Follow these best practices to protect your systems and data from cyber threats.
+            </p>
             <div class="grid">
                 <div class="card">
                     <img src="https://images.unsplash.com/photo-1541929866681-94eb7c9a4c7d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cGFzc3dvcmR8ZW58MHx8MHx8fDA%3D"
-                         alt="Strong Password" style="width:100%;height:150px;object-fit:cover;display:block;margin-bottom:1rem;border-radius:8px 8px 0 0;">
+                        alt="Strong Password"
+                        style="width:100%;height:150px;object-fit:cover;display:block;margin-bottom:1rem;border-radius:8px 8px 0 0;">
                     Use strong, unique passwords for every account.
                 </div>
                 <div class="card">
                     <img src="https://www.malwarebytes.com/wp-content/uploads/sites/2/2018/09/shutterstock_641960737.jpg"
-                         alt="Two Factor Authentication" style="width:100%;height:150px;object-fit:cover;display:block;margin-bottom:1rem;border-radius:8px 8px 0 0;">
+                        alt="Two Factor Authentication"
+                        style="width:100%;height:150px;object-fit:cover;display:block;margin-bottom:1rem;border-radius:8px 8px 0 0;">
                     Enable two-factor authentication (2FA) wherever possible.
                 </div>
                 <div class="card">
                     <img src="https://i0.wp.com/samlover.com/wp-content/uploads/2023/06/One-UI.webp"
-                         alt="Software Update" style="width:100%;height:150px;object-fit:cover;display:block;margin-bottom:1rem;border-radius:8px 8px 0 0;">
+                        alt="Software Update"
+                        style="width:100%;height:150px;object-fit:cover;display:block;margin-bottom:1rem;border-radius:8px 8px 0 0;">
                     Keep all software and operating systems updated.
                 </div>
                 <div class="card">
                     <img src="https://images.unsplash.com/photo-1596526131083-e8c633c948d2?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZW1haWxzfGVufDB8fDB8fHww"
-                         alt="Phishing Awareness" style="width:100%;height:150px;object-fit:cover;display:block;margin-bottom:1rem;border-radius:8px 8px 0 0;">
+                        alt="Phishing Awareness"
+                        style="width:100%;height:150px;object-fit:cover;display:block;margin-bottom:1rem;border-radius:8px 8px 0 0;">
                     Be cautious of suspicious emails and links (avoid phishing).
                 </div>
                 <div class="card">
                     <img src="https://images.unsplash.com/photo-1675627453084-505806a00406?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8bWFsd2FyZSUyMHNjYW58ZW58MHx8MHx8fDA%3D"
-                         alt="Antivirus" style="width:100%;height:150px;object-fit:cover;display:block;margin-bottom:1rem;border-radius:8px 8px 0 0;">
+                        alt="Antivirus"
+                        style="width:100%;height:150px;object-fit:cover;display:block;margin-bottom:1rem;border-radius:8px 8px 0 0;">
                     Install and regularly update antivirus and anti-malware software.
                 </div>
                 <div class="card">
                     <img src="https://images.unsplash.com/photo-1655036387197-566206c80980?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTExfHxiYWNrdXAlMjBkYXRhfGVufDB8fDB8fHww"
-                         alt="Backup Data" style="width:100%;height:150px;object-fit:cover;display:block;margin-bottom:1rem;border-radius:8px 8px 0 0;">
+                        alt="Backup Data"
+                        style="width:100%;height:150px;object-fit:cover;display:block;margin-bottom:1rem;border-radius:8px 8px 0 0;">
                     Back up important data regularly to secure locations.
                 </div>
                 <div class="card">
                     <img src="https://images.unsplash.com/photo-1645725677294-ed0843b97d5c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8d2lmaXxlbnwwfHwwfHx8MA%3D%3D"
-                         alt="Secure Wi-Fi" style="width:100%;height:150px;object-fit:cover;display:block;margin-bottom:1rem;border-radius:8px 8px 0 0;">
+                        alt="Secure Wi-Fi"
+                        style="width:100%;height:150px;object-fit:cover;display:block;margin-bottom:1rem;border-radius:8px 8px 0 0;">
                     Use secure Wi-Fi networks and avoid public Wi-Fi for sensitive activities.
                 </div>
                 <div class="card">
                     <img src="https://images.unsplash.com/photo-1579869847557-1f67382cc158?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c29jaWFsJTIwbWVkaWF8ZW58MHx8MHx8fDA%3D"
-                         alt="Limit Sharing" style="width:100%;height:150px;object-fit:cover;display:block;margin-bottom:1rem;border-radius:8px 8px 0 0;">
+                        alt="Limit Sharing"
+                        style="width:100%;height:150px;object-fit:cover;display:block;margin-bottom:1rem;border-radius:8px 8px 0 0;">
                     Limit sharing of personal information on social media.
                 </div>
                 <div class="card">
                     <img src="https://images.unsplash.com/photo-1596335890740-8860af633e58?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHRydXN0ZWQlMjBhcHBzfGVufDB8fDB8fHww"
-                         alt="App Permissions" style="width:100%;height:150px;object-fit:cover;display:block;margin-bottom:1rem;border-radius:8px 8px 0 0;">
+                        alt="App Permissions"
+                        style="width:100%;height:150px;object-fit:cover;display:block;margin-bottom:1rem;border-radius:8px 8px 0 0;">
                     Review app permissions and only install trusted applications.
                 </div>
                 <div class="card">
-                    <img src="https://images.unsplash.com/photo-1740818576423-34be7fe85176?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
-                    alt="Monitor Accounts" style="width:100%;height:150px;object-fit:cover;display:block;margin-bottom:1rem;border-radius:8px 8px 0 0;">
+                    <img src="https://images.unsplash.com/photo-1740818576423-34be7fe85176?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="Monitor Accounts"
+                        style="width:100%;height:150px;object-fit:cover;display:block;margin-bottom:1rem;border-radius:8px 8px 0 0;">
                     Monitor your accounts and credit reports for unusual activity.
                 </div>
             </div> <!-- This closes the .grid div -->
 
         </section>
+        </section>
+        <section id="Quiz" tabindex="-1" aria-label="Quiz">
+            <h2>How Cyber-Aware Are You?</h2>
+            <div class="card">
+                <img src="https://www.europarl.europa.eu/resources/library/images/20250414PHT27988/20250414PHT27988_original.png"
+                    alt="Cybersecurity Quiz"
+                    style="width:100%;height:300px;object-fit:cover;display:block;margin-bottom:1rem;border-radius:8px 8px 0 0;">
+                <h3>Cybersecurity Quiz</h3>
+                <a href=" https://dushyant-05.github.io/CYQuiz/" target="_blank" rel="noopener"
+                    style="color:var(--accent);margin-top:auto;">Take quiz</a>
+            </div>
+
+
+        </section>
         <section id="latest-news" tabindex="-1" aria-label="Latest News">
             <h2>Latest News</h2>
             <p style="font-family: 'Fira Mono', 'Consolas', 'Menlo', 'Monaco', monospace;">
-        Stay updated with the latest trends and news in cybersecurity.
-    </p>
+                Stay updated with the latest trends and news in cybersecurity.
+            </p>
             <div class="grid grid-blue">
                 <div class="card">
-                    <img src="https://assets.techrepublic.com/uploads/2024/11/tr_20241129-cyber-security-news-roundup-dec-2024.jpg" alt="Cybersecurity News" style="width:100%;height:300px;object-fit:cover;display:block;margin-bottom:1rem;border-radius:8px 8px 0 0;">
+                    <img src="https://assets.techrepublic.com/uploads/2024/11/tr_20241129-cyber-security-news-roundup-dec-2024.jpg"
+                        alt="Cybersecurity News"
+                        style="width:100%;height:300px;object-fit:cover;display:block;margin-bottom:1rem;border-radius:8px 8px 0 0;">
                     <h3>Cybersecurity News</h3>
                     <p>Get the latest updates on cybersecurity threats and solutions.</p>
-                    <a href="https://thehackernews.com" target="_blank" rel="noopener" style="color:var(--accent);margin-top:auto;">Read more</a>
+                    <a href="https://thehackernews.com" target="_blank" rel="noopener"
+                        style="color:var(--accent);margin-top:auto;">Read more</a>
                 </div>
                 <div class="card">
-                    <img src="https://podcastlaunchlab.com/wp-content/uploads/2022/12/cartoon-people-recording-a-podcast-man-and-woman-vector-27257295-e1671468162212-999x675.jpeg" alt="Cybersecurity Podcast" style="width:100%;height:300px;object-fit:cover;display:block;margin-bottom:1rem;border-radius:8px 8px 0 0;">
+                    <img src="https://podcastlaunchlab.com/wp-content/uploads/2022/12/cartoon-people-recording-a-podcast-man-and-woman-vector-27257295-e1671468162212-999x675.jpeg"
+                        alt="Cybersecurity Podcast"
+                        style="width:100%;height:300px;object-fit:cover;display:block;margin-bottom:1rem;border-radius:8px 8px 0 0;">
                     <h3>Cybersecurity Podcast</h3>
                     <p>Listen to discussions with experts on the latest in cybersecurity.</p>
-                    <a href="https://www.youtube.com/results?search_query=cybersecurity+podcast" target="_blank" rel="noopener" style="color:var(--accent);margin-top:auto;">Listen</a>
+                    <a href="https://www.youtube.com/results?search_query=cybersecurity+podcast" target="_blank"
+                        rel="noopener" style="color:var(--accent);margin-top:auto;">Listen</a>
                 </div>
             </div>
         </section>
+
     </main>
 
     <footer>
-        <img src="https://scontent.fjrh1-2.fna.fbcdn.net/v/t39.30808-6/486171765_1206956530937756_271059198587905738_n.jpg?stp=dst-jpg_s206x206_tt6&_nc_cat=107&ccb=1-7&_nc_sid=fe5ecc&_nc_ohc=oPIVonFCAgAQ7kNvwHRHIXz&_nc_oc=Adn7qaORxlPAP_xyBUgee7uMrlQUFXGv3BIg7POPB1rCmGNB8oJgqYN2WEUEKPSOiiqC3AP84C_oikIS1E5WFHm3&_nc_zt=23&_nc_ht=scontent.fjrh1-2.fna&_nc_gid=rBKx-CcHKlbP-9YPcI_cEw&oh=00_AfKqaadW4TfXWk2pDf5tivYucy6xk4M1qZZcPlm7o7OZBQ&oe=6837D8A8" alt="Dushyant" style="display:block;margin:0 auto 1rem auto;width:70px;height:70px;object-fit:cover;border-radius:50%;box-shadow:0 2px 8px rgba(0,0,0,0.12);" />
+        <img src="https://scontent.fjrh1-2.fna.fbcdn.net/v/t39.30808-6/486171765_1206956530937756_271059198587905738_n.jpg?stp=dst-jpg_s206x206_tt6&_nc_cat=107&ccb=1-7&_nc_sid=fe5ecc&_nc_ohc=oPIVonFCAgAQ7kNvwHRHIXz&_nc_oc=Adn7qaORxlPAP_xyBUgee7uMrlQUFXGv3BIg7POPB1rCmGNB8oJgqYN2WEUEKPSOiiqC3AP84C_oikIS1E5WFHm3&_nc_zt=23&_nc_ht=scontent.fjrh1-2.fna&_nc_gid=rBKx-CcHKlbP-9YPcI_cEw&oh=00_AfKqaadW4TfXWk2pDf5tivYucy6xk4M1qZZcPlm7o7OZBQ&oe=6837D8A8"
+            alt="Dushyant"
+            style="display:block;margin:0 auto 1rem auto;width:70px;height:70px;object-fit:cover;border-radius:50%;box-shadow:0 2px 8px rgba(0,0,0,0.12);" />
         <p style="opacity:0.6;">&copy;Crafted by Dushyant <br>Powered by Coffee</p>
     </footer>
 
@@ -682,6 +756,7 @@
         });
     </script>
 
+
 </body>
 
-</html>
+</html> 
