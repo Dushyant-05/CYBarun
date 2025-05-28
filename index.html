@@ -395,6 +395,158 @@
             transform: none !important;
             transition: none !important;
         }
+
+        .cyber-importance {
+            margin-top: 80px;
+            padding: 00px 00px;
+            font-family: 'Outfit', sans-serif;
+            color: #1d1f22;
+            opacity: 0;
+            transform: translateY(40px);
+            animation: fadeInUp 1s ease-out forwards;
+            animation-delay: 0.2s;
+        }
+
+        .importance-content {
+            max-width: 900px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .importance-content h2 {
+            font-size: 2.6em;
+            font-weight: 700;
+            color: #0057ff;
+            margin-bottom: 20px;
+        }
+
+        .importance-content .icon {
+            font-size: 1.8em;
+            margin-right: 8px;
+            vertical-align: middle;
+        }
+
+        .importance-content p {
+            font-size: 1.3em;
+            line-height: 1.9;
+            font-weight: 400;
+            color: #333;
+        }
+
+        .importance-content .highlight {
+            display: inline-block;
+            margin-top: 15px;
+            color: #0057ff;
+            font-weight: 600;
+            font-size: 1.2em;
+        }
+
+        /* Animation */
+        @keyframes fadeInUp {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .quick-links-footer {
+            background-color: #1f2937;
+            color: white;
+            padding: 20px;
+            font-family: 'Segoe UI', sans-serif;
+        }
+
+        .footer-section {
+            border-bottom: 1px solid #333;
+            padding: 15px 0;
+            cursor: pointer;
+        }
+
+        .footer-section h3 {
+            margin: 0;
+            font-size: 18px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .footer-section ul {
+            list-style: none;
+            padding: 10px 0 0;
+            margin: 0;
+            display: none;
+        }
+
+        .footer-section ul li {
+            padding: 5px 0;
+            font-size: 14px;
+        }
+
+        .footer-section ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .footer-section.active ul {
+            display: block;
+        }
+
+        .story-section {
+            margin-top: 80px;
+            padding: 0 0;
+            font-family: 'Outfit', sans-serif;
+            color: #1d1f22;
+            opacity: 0;
+            transform: translateY(40px);
+            animation: fadeInUp 1s ease-out forwards;
+            animation-delay: 0.2s;
+        }
+
+        .story-content {
+            max-width: 900px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .story-content h2 {
+            font-size: 2.6em;
+            font-weight: 700;
+            color: #0057ff;
+            margin-bottom: 20px;
+        }
+
+        .story-content .icon {
+            font-size: 1.8em;
+            margin-right: 8px;
+            vertical-align: middle;
+        }
+
+        .story-content p {
+            font-size: 1.3em;
+            line-height: 1.9;
+            font-weight: 400;
+            color: #333;
+        }
+
+        @keyframes fadeInUp {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        .story-section {
+            padding-left:20px;
+            padding-right:20px;
+        }
+
+
+        /* Animation */
+        @keyframes fadeInUp {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
     </style>
 </head>
 
@@ -476,6 +628,37 @@
                 </div>
             </div>
         </section>
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap" rel="stylesheet">
+
+        <section class="cyber-importance" id="importance">
+            <div class="importance-content">
+                <img src="https://cdn.pixabay.com/photo/2019/09/23/09/16/cyber-security-4498009_1280.png"
+                    alt="Security Illustration" style="
+            display: block;
+            width: 100%;
+            max-width: 420px;
+            height: auto;
+            margin: 0 auto 2.5rem auto;
+            border-radius: 0;
+            box-shadow: none;
+            object-fit: cover;
+        " loading="lazy" />
+
+                <h2><span class="icon">🔐</span> Cybersecurity is not optional—it's essential.</h2>
+                <p>
+                    In today’s digital age, our personal data, finances, and identities are stored and shared online
+                    every day.
+                    <strong>Cybersecurity</strong> is the silent guardian that defends us from threats like
+                    <em>hacking</em>,
+                    <em>phishing</em>, and <em>data breaches</em>. It protects our privacy, secures our systems, and
+                    ensures that technology remains a force for good.
+                    <br><br>
+                </p>
+            </div>
+        </section>
+
+
 
         <section id="attacks" tabindex="-1" aria-label="Cyber Attacks">
             <h2>Cyber Attacks</h2>
@@ -567,6 +750,27 @@
             </div>
         </section>
 
+        <section class="story-section" id="story">
+            <div class="story-content">
+                <h2><span class="icon">🔐</span>One Click Away from Chaos</h2>
+                <p>
+                    Arjun was a tech-savvy teenager known for his confidence online. One evening, while browsing through
+                    his emails, he found a message that seemed too good to be true:
+                    <strong>“Congratulations! You’ve won a gaming laptop.”</strong> Without a second thought, he clicked
+                    the link and filled in his details.
+                    <br><br>
+                    The next morning, his phone was flooded with unusual alerts—unauthorized bank transactions, strange
+                    posts from his social media, and his files locked with a ransom note.
+                    His digital world had been turned upside down—all because of one careless click.
+                    <br><br>
+                    Had Arjun followed basic <strong>cybersecurity precautions</strong>, he could have protected himself
+                    from this digital disaster.
+                    <strong>Don’t make the same mistake—stay safe, stay aware.</strong>
+                </p>
+            </div>
+        </section>
+
+
         <section id="precautions" tabindex="-1" aria-label="Security Precautions">
             <h2>Security Precautions</h2>
             <p style="font-family: 'Fira Mono', 'Consolas', 'Menlo', 'Monaco', monospace;">
@@ -640,7 +844,7 @@
         <section id="Quiz" tabindex="-1" aria-label="Quiz">
             <h2>How Cyber-Aware Are You?</h2>
             <div class="card">
-                <img src="https://www.europarl.europa.eu/resources/library/images/20250414PHT27988/20250414PHT27988_original.png"
+                <img src="https://cdn.pixabay.com/photo/2024/11/01/00/26/information-9165426_1280.png"
                     alt="Cybersecurity Quiz"
                     style="width:100%;height:300px;object-fit:cover;display:block;margin-bottom:1rem;border-radius:8px 8px 0 0;">
                 <h3>Cybersecurity Quiz</h3>
@@ -676,6 +880,42 @@
                 </div>
             </div>
         </section>
+        <div class="quick-links-footer">
+            <div class="footer-section" onclick="toggleSection(this)">
+                <h3>Important links<span>›</span></h3>
+                <ul>
+                    <li><a href="https://cybercrime.gov.in">National Cyber Crime Reporting Portal</a></li>
+                    <li><a href="https://www.security.org/digital-safety/cyber-security-tips/">cyber-safety-tips</a>
+                    </li>
+                    <li><a href="https://support.google.com/accounts/answer/6294825?hl=en">Secure a hacked Google
+                            Account</a></li>
+                    <li><a href="https://brave.com/"></a>Download Brave Browser</li>
+
+
+                </ul>
+            </div>
+            <div class="footer-section" onclick="toggleSection(this)">
+                <h3>Free Tools <span>›</span></h3>
+                <ul>
+                    <li><a href="https://www.virustotal.com/gui/home/upload">Virus Total</a></li>
+                    <li><a href="https://protonvpn.com/free-vpn">VPN</a></li>
+                    <li><a href="https://bitwarden.com/password-strength/">Password Strength Testing Tool</a></li>
+                    <li><a href="https://haveibeenpwned.com/">Have I Been Pwned</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section" onclick="toggleSection(this)">
+                <h3>Connect<span>›</span></h3>
+                <ul>
+                    <li><a href="tel:+918753910813">contact</a></li>
+                    <li><a href="https://www.facebook.com/share/1BcjKXawvh/">facebook</a></li>
+                    <li><a href="https://www.instagram.com/barunbasnet_?igsh=MTF0MnEzaDExeXRnYQ==">Instagram</a></li>
+                    <li><a href="mailto:ab209565@gmail.com">E-mail</a></li>
+                </ul>
+            </div>
+
+        </div>
+
 
     </main>
 
@@ -754,9 +994,20 @@
                 }
             });
         });
+        window.addEventListener('scroll', () => {
+            const section = document.querySelector('.cyber-importance');
+            const triggerPoint = window.innerHeight * 0.85;
+            if (section.getBoundingClientRect().top < triggerPoint) {
+                section.style.animationPlayState = 'running';
+            }
+        });
+        function toggleSection(element) {
+            element.classList.toggle("active");
+        }
+
     </script>
 
 
 </body>
 
-</html> 
+</html>
